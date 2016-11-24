@@ -1,0 +1,77 @@
+/* preloader */
+.loading-container
+											{position:fixed;
+											background-color:#f9f9f9;
+											z-index:999999999;
+											top: 0;
+											left: 0;
+											height:100%;
+											width:100%;
+											cursor:wait;}
+/* CSS Document */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance:textfield;
+}
+body 						 {margin:0 !important;
+											padding:0 !important;
+											background:#fff;
+											font-size: 14px;
+											color:#414a50;}
+
+a, a:hover,
+a:focus 			 {text-decoration: none;
+								outline:none;}
+ul li					 {list-style-type: none;}
+img						 {border: 0 none;}
+button, input	 {outline:none;}
+ul						 {margin:0;padding:0;}
+html, body, #bg, #bg table, #bg td, #cont {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;}
+
+/* HOME */
+body					{background: url('../images/bg.jpg') no-repeat center center fixed;
+							-webkit-background-size: cover;
+							-moz-background-size: cover;
+							-o-background-size: cover;
+							background-size: cover;}
+.text-intro-mobile,.link-intro-mobile,
+.in-img-mobile
+							{display: none;}
+.fullscreen		{position: relative;}
+.fullscreen .text-ld,
+.fullscreen .img-ld
+							{position: absolute;}
+.fullscreen .img-ld
+							{top:74px;
+							right:24px;}
+.fullscreen .text-ld .text-intro
+							{position: relative;
+					    top: 296px;
+					    left: 169px;}
+.fullscreen .text-ld .link-intro
+							{position: relative;}
+.fullscreen .text-ld .link-intro a.btn-appstore
+							{background:url('../images/btn-appstore.png') no-repeat center center;
+							width: 196px;
+							height: 70px;
+							display: block;
+							position: absolute;
+							top: 318px;
+							left: 142px;}
+.fullscreen .text-ld .link-intro a.btn-chplay
+							{background:url('../images/btn-chplay-deactive.png') no-repeat center center;
+							width: 196px;
+							height: 70px;
+							display: block;
+							position: absolute;
+							top: 318px;
+							left: 299px;}

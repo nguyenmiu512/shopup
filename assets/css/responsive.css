@@ -1,0 +1,68 @@
+/* CSS Document */
+
+@media(min-width: 992px){}
+
+@media (min-width:768px) and (max-width:992px){
+.text-ld .text-intro-mobile
+						{margin-top:10px;}
+.text-ld		{text-align: center;}
+}
+
+@media (min-width:320px) and (max-width:768px)
+{
+.fullscreen .text-ld, .fullscreen .img-ld
+						{position: inherit;}
+.img-ld img,
+.text-intro,
+.link-intro	{display: none;}
+.text-intro-mobile
+						{display: block;
+						text-align: center;
+						margin-top: 39px;
+						width: 200px;
+						height: 49px;}
+.link-intro-mobile
+						{display: block;
+						margin-top: 20px;}
+.fullscreen .text-ld .link-intro-mobile a.btn-appstore
+						{background:url('../images/btn-appstore.png') no-repeat center center;
+						width: 196px;
+						height: 70px;
+						display: block;
+						margin:0 auto;}
+.fullscreen .text-ld .link-intro-mobile a.btn-chplay
+						{background:url('../images/btn-chplay-deactive.png') no-repeat center center;
+						width: 196px;
+						height: 70px;
+						display: block;
+						margin:0 auto;}
+.fullscreen .img-ld-mobile
+						{position: absolute;
+				    top: 278px;
+				    left: 0px;}
+.in-img-mobile
+						{display: block;
+						top: 285px;
+						width: 250px;
+						height: 308px;
+						left: 21px;}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2),screen and (-webkit-device-pixel-ratio: 1.5){
+	.text-ld .text-intro-mobile
+							{background-image: url('../images/logo-app-mobile@2x.png');
+							background-size:200px 49px;
+						  margin: 37px auto;}
+.fullscreen .text-ld .link-intro-mobile a.btn-appstore
+							{background-image: url('../images/btn-appstore@2x.png');
+							background-size:150px 54px;}
+.fullscreen .text-ld .link-intro-mobile a.btn-chplay
+							{background-image: url('../images/btn-chplay-deactive@2x.png');
+							background-size:150px 54px;}
+.fullscreen .in-img-mobile
+							{background-image: url('../images/smartphone-mobile@2x.png');
+							background-size:250px 308px;
+							margin:0 auto;}
+
+
+}
